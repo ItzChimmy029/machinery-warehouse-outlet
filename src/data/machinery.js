@@ -1,4 +1,4 @@
-const image = (filename) => `/assets/machine-images/${filename}`;
+const image = (filename) => `${import.meta.env.BASE_URL}assets/machine-images/${filename}`;
 
 // One entry per user-approved image in /machine images. Names and models are
 // transcribed from the supplied image itself; no images are cropped or replaced.
